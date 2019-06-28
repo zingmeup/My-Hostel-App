@@ -28,7 +28,7 @@ $project = "my-hostel-app";
 // Creates a notification for subscribers to the debug topic
 $message = [
     "message" => [
-        "token" => "dI2G2ewt02o:APA91bFPZHX2Tik3d9qTPYi5QSPbx1cKuinrhfiEf3h5QUkBnURZbKuRoZjy-xn6q1hAieOa3247BfGgolw02u9fK7qS-fDr5gPoefESP0nIWnFd0H0zz_pk7M5Cm4MUSmEFEcqfhNPx",
+        "token" => "device-token-id",
         "notification" => [
             "body" => "Alright modafaka",
             "title" => "Whats up moda faka",
@@ -49,7 +49,7 @@ for ($i=0; $i <5 ; $i++) {
 
   $message = [
       "message" => [
-          "token" => "eQ2IJu3a3ME:APA91bH0Vj6NYewffJODZRJyvZPTX2inVknw9ebTV_wR_cTn1TqhfJHPoTLesu0DsRTrelkkBWl-1B8PJzc51WoS7zrtJQ7at_bW7-H8xFscyb7qSnFZxQyVE2yaNNm2B9b6re1Jw1jW",
+          "token" => "device-token-id",
           "notification" => [
               "body" => "Alright modafaka ".$i,
               "title" => "Whats up moda faka ",
